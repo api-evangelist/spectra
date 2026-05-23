@@ -1,0 +1,73 @@
+name: Spectra (Defunct / Merged into OVG360)
+description: |
+  Spectra (formerly Spectra Experiences, originally Comcast-Spectacor Ventures /
+  Global Spectrum + Ovations Food Services + Paciolan + Front Row Marketing)
+  was a North American venue management, food services & hospitality, and
+  partnership-sales company headquartered in Philadelphia, PA. Owned jointly by
+  Comcast Spectacor and Atairos, Spectra was acquired by Oak View Group (OVG)
+  in a deal announced August 31, 2021 and closed on November 15, 2021 after
+  receiving U.S. Department of Justice approval. On February 25, 2022, OVG
+  formally consolidated Spectra and OVG Facilities into a single, rebranded
+  division called OVG360. The Spectra and Spectra Experiences brands were
+  retired as a result, and the spectraexperiences.com domain is no longer
+  resolvable. This apis.yml is preserved as an historical record only — Spectra
+  never published a public developer API, OpenAPI specification, SDK, or
+  developer portal. Operational successor: OVG360
+  (https://www.oakviewgroup.com/ovg360-2/). Ticketing platform Paciolan, which
+  had been part of the Spectra portfolio, was divested before the OVG deal and
+  is now an independent Learfield subsidiary.
+image: https://avatars.githubusercontent.com/u/api-evangelist
+url: https://github.com/api-evangelist/spectra
+modified: '2026-05-23'
+created: '2026-05-23'
+specificationVersion: '0.18'
+tags:
+  - Venue Management
+  - Food Service
+  - Hospitality
+  - Live Events
+  - Sports And Entertainment
+  - Defunct
+  - Merged
+  - Historical Record
+common:
+  - type: Homepage
+    url: https://spectraexperiences.com
+    description: Original Spectra Experiences homepage (no longer resolvable; domain dead as of 2026-05).
+  - type: SuccessorEntity
+    url: https://www.oakviewgroup.com/ovg360-2/
+    description: OVG360 — the merged Oak View Group division that absorbed Spectra and OVG Facilities on 2022-02-25.
+  - type: ParentCompany
+    url: https://www.oakviewgroup.com
+    description: Oak View Group, parent company of OVG360 and current owner of all former Spectra operations.
+  - type: PriorOwner
+    url: https://www.comcastspectacor.com
+    description: Comcast Spectacor — Spectra's prior co-owner (with Atairos) before the OVG acquisition.
+  - type: AcquisitionAnnouncement
+    url: https://www.inquirer.com/business/oak-view-group-spectra-comcast-spectacor-merger-20210831.html
+    description: Philadelphia Inquirer coverage of the August 31, 2021 acquisition announcement.
+  - type: AcquisitionClose
+    url: https://www.prnewswire.com/news-releases/oak-view-group-completes-major-acquisition-of-spectra-301429247.html
+    description: PR Newswire — Oak View Group Completes Major Acquisition of Spectra (closed 2021-11-15).
+  - type: Rebrand
+    url: https://www.thestadiumbusiness.com/2022/02/25/oak-view-group-unites-ovg-facilities-spectra-under-ovg360-brand/
+    description: The Stadium Business — OVG unites OVG Facilities and Spectra under the OVG360 brand (2022-02-25).
+  - type: HistoricalContext
+    url: https://en.wikipedia.org/wiki/Comcast_Spectacor
+    description: Comcast Spectacor background, including the Global Spectrum / Ovations / Front Row Marketing brands that were combined into Spectra in 2015.
+  - type: Vocabulary
+    url: vocabulary/spectra-vocabulary.yml
+    description: Domain vocabulary for the venue management, food service, and live-events space Spectra operated in.
+  - type: JSONLDContext
+    url: json-ld/spectra-context.jsonld
+    description: JSON-LD context aligning Spectra's former domain concepts with schema.org.
+apis: []
+# No APIs are listed because Spectra never published a public developer API,
+# OpenAPI specification, SDK, CLI, or developer portal during its operating life
+# (2015-2022). All customer-facing integrations were delivered via private
+# enterprise contracts, white-labeled Paciolan ticketing (since divested), or
+# direct hospitality / venue-operations services.
+maintainers:
+  - FN: Kin Lane
+    email: info@apievangelist.com
+    url: https://apievangelist.com

@@ -1,0 +1,92 @@
+{
+  "@context": {
+    "@vocab": "https://apievangelist.com/vocabulary/spectra/",
+    "schema": "https://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+
+    "Spectra": "schema:Organization",
+    "SpectraExperiences": "schema:Organization",
+    "OakViewGroup": "schema:Organization",
+    "OVG360": "schema:Organization",
+    "ComcastSpectacor": "schema:Organization",
+    "Atairos": "schema:Organization",
+    "Paciolan": "schema:Organization",
+
+    "Venue": "schema:EventVenue",
+    "Arena": "schema:StadiumOrArena",
+    "Stadium": "schema:StadiumOrArena",
+    "ConventionCenter": "schema:ConvocationsCenter",
+    "PerformingArtsCenter": "schema:PerformingArtsTheater",
+    "Amphitheater": "schema:EventVenue",
+
+    "VenueManagement": "schema:Service",
+    "FoodServicesAndHospitality": "schema:FoodService",
+    "PartnershipsServices": "schema:Service",
+    "Ticketing": "schema:Service",
+    "PreConstructionConsulting": "schema:Service",
+    "EventBooking": "schema:Service",
+    "Concessions": "schema:FoodService",
+    "PremiumCatering": "schema:CateringService",
+    "SuiteService": "schema:FoodService",
+    "NamingRights": "schema:Intangible",
+    "PropertySales": "schema:Service",
+    "StrategicConsulting": "schema:Service",
+
+    "ManagementAgreement": "schema:Contract",
+    "ClientVenue": "schema:EventVenue",
+
+    "name": "schema:name",
+    "description": "schema:description",
+    "url": "schema:url",
+    "logo": "schema:logo",
+    "founded": { "@id": "schema:foundingDate", "@type": "xsd:date" },
+    "dissolved": { "@id": "schema:dissolutionDate", "@type": "xsd:date" },
+    "parentOrganization": { "@id": "schema:parentOrganization", "@type": "@id" },
+    "subOrganization": { "@id": "schema:subOrganization", "@type": "@id" },
+    "successor": { "@id": "schema:successorOrganization", "@type": "@id" },
+    "predecessor": { "@id": "schema:predecessorOrganization", "@type": "@id" },
+    "acquirer": { "@id": "schema:Organization", "@type": "@id" },
+    "acquiredOn": { "@id": "schema:dissolutionDate", "@type": "xsd:date" },
+    "headquarters": "schema:address",
+    "operatedVenue": { "@id": "schema:provider", "@type": "@id" },
+    "providedService": { "@id": "schema:hasOfferCatalog", "@type": "@id" }
+  },
+
+  "@graph": [
+    {
+      "@id": "https://github.com/api-evangelist/spectra",
+      "@type": "Spectra",
+      "name": "Spectra",
+      "description": "Defunct North American venue management, food services & hospitality, and partnerships company headquartered in Philadelphia, PA. Operating brand from 2015 through 2022-02-25, when it was merged with OVG Facilities to form OVG360 under Oak View Group.",
+      "url": "https://spectraexperiences.com",
+      "founded": "2015-01-01",
+      "dissolved": "2022-02-25",
+      "predecessor": "https://www.comcastspectacor.com",
+      "successor": "https://www.oakviewgroup.com/ovg360-2/",
+      "acquirer": "https://www.oakviewgroup.com",
+      "acquiredOn": "2021-11-15",
+      "parentOrganization": "https://www.oakviewgroup.com"
+    },
+    {
+      "@id": "https://www.oakviewgroup.com/ovg360-2/",
+      "@type": "OVG360",
+      "name": "OVG360",
+      "description": "Oak View Group's venue management, hospitality, and partnerships division formed on 2022-02-25 by merging Spectra and OVG Facilities. Operational successor to Spectra.",
+      "parentOrganization": "https://www.oakviewgroup.com",
+      "predecessor": "https://github.com/api-evangelist/spectra",
+      "founded": "2022-02-25"
+    },
+    {
+      "@id": "https://www.oakviewgroup.com",
+      "@type": "OakViewGroup",
+      "name": "Oak View Group",
+      "description": "Global sports and entertainment company. Acquired Spectra from Comcast Spectacor and Atairos on 2021-11-15."
+    },
+    {
+      "@id": "https://www.comcastspectacor.com",
+      "@type": "ComcastSpectacor",
+      "name": "Comcast Spectacor",
+      "description": "Prior co-owner of Spectra. Combined Global Spectrum, Ovations Food Services, Paciolan, and Front Row Marketing into the unified Spectra brand in 2015; sold Spectra to Oak View Group in 2021."
+    }
+  ]
+}

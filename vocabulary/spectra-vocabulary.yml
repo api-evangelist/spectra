@@ -1,0 +1,88 @@
+name: Spectra Vocabulary
+description: |
+  Historical domain vocabulary for Spectra (defunct; merged into OVG360 on
+  2022-02-25). Spectra delivered three primary lines of business across roughly
+  330 top-tier client venues in North America and globally: venue management,
+  food services & hospitality, and partnerships (property sales, naming rights,
+  hospitality, strategic consulting). This vocabulary captures the operational
+  and commercial concepts Spectra used so that any preserved contracts, RFPs,
+  or industry references can still be reasoned about semantically.
+modified: '2026-05-23'
+created: '2026-05-23'
+
+concepts:
+
+  - term: Venue
+    definition: A managed facility — arena, stadium, convention center, performing arts center, amphitheater, or theater — operated by Spectra under a management agreement.
+    aligns:
+      - https://schema.org/Place
+      - https://schema.org/EventVenue
+
+  - term: VenueManagement
+    definition: Full-service operation of a venue on behalf of an owner (often a municipality or university), including event booking, day-of operations, ticketing, staffing, and pre-construction consulting.
+
+  - term: PreConstructionConsulting
+    definition: Advisory services Spectra offered to owners during venue design and construction phases, covering operational layout, revenue modeling, and contractor coordination.
+
+  - term: EventBooking
+    definition: The sourcing, scheduling, and contracting of concerts, sports events, family shows, conventions, and private events into a managed venue's calendar.
+
+  - term: FoodServicesAndHospitality
+    definition: Spectra's concessions, premium catering, suite service, and culinary operations line — successor to the legacy Ovations Food Services brand.
+
+  - term: Concessions
+    definition: Quick-service food and beverage sold to general-admission patrons at venue points of sale.
+
+  - term: PremiumCatering
+    definition: Plated meals, receptions, and bespoke menus served in suites, clubs, and private event spaces.
+
+  - term: SuiteService
+    definition: In-suite food, beverage, and hospitality service for premium-seat ticket holders during an event.
+
+  - term: PartnershipsServices
+    definition: Spectra's property-sales, naming-rights, sponsorship, hospitality, and strategic-consulting line — successor to the legacy Front Row Marketing brand.
+
+  - term: NamingRights
+    definition: Long-term commercial agreement granting a sponsor the right to attach a brand name to a venue or major venue zone in exchange for fees and benefits.
+
+  - term: PropertySales
+    definition: Sale of sponsorship inventory associated with a venue or team — signage, broadcast assets, digital placements, in-venue activations.
+
+  - term: StrategicConsulting
+    definition: Project-based advisory work for venue owners, teams, leagues, and brands across feasibility, revenue strategy, and operations.
+
+  - term: Ticketing
+    definition: Sale, fulfillment, and access control of admission tickets. Historically delivered via Paciolan, which Spectra spun out before the OVG deal.
+
+  - term: ManagementAgreement
+    definition: The contractual instrument by which a venue owner engages Spectra (now OVG360) to operate the facility, typically on a multi-year term with management fee plus performance incentives.
+
+  - term: ClientVenue
+    definition: A specific facility under a Spectra management agreement. Spectra served approximately 330 top-tier client venues across North America and globally at the time of acquisition.
+
+  - term: OVG360
+    definition: The Oak View Group division formed on 2022-02-25 by merging Spectra and OVG Facilities. OVG360 is the operational successor to Spectra and inherited its venue, food, and partnerships portfolios.
+
+  - term: OakViewGroup
+    definition: Global sports and entertainment company that acquired Spectra from Comcast Spectacor and Atairos on 2021-11-15 and now owns OVG360, OVG Hospitality, Rhubarb, Spectrum Catering, and related brands.
+
+  - term: ComcastSpectacor
+    definition: Spectra's prior co-owner. Combined Global Spectrum, Ovations Food Services, Paciolan, and Front Row Marketing into the unified Spectra brand in 2015, then sold Spectra to OVG in 2021.
+
+  - term: Atairos
+    definition: Independent investment firm and co-owner of Spectra alongside Comcast Spectacor prior to the 2021 OVG acquisition.
+
+  - term: Paciolan
+    definition: College-ticketing platform previously part of Spectra's portfolio; divested before the OVG transaction and now an independent Learfield subsidiary. Not part of OVG360.
+
+  - term: GlobalSpectrum
+    definition: Comcast Spectacor's pre-2015 venue management brand, folded into Spectra and now part of OVG360.
+
+  - term: OvationsFoodServices
+    definition: Comcast Spectacor's pre-2015 food & beverage brand, folded into Spectra's Food Services & Hospitality line and now part of OVG360 hospitality.
+
+  - term: FrontRowMarketing
+    definition: Comcast Spectacor's pre-2015 sponsorship-sales brand, folded into Spectra Partnerships and now part of OVG360.
+
+  - term: DefunctBrand
+    definition: A trading name that is no longer in commercial use. Spectra and Spectra Experiences became defunct brands on 2022-02-25 when OVG360 launched.
