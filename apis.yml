@@ -16,6 +16,17 @@ description: |
   (https://www.oakviewgroup.com/ovg360-2/). Ticketing platform Paciolan, which
   had been part of the Spectra portfolio, was divested before the OVG deal and
   is now an independent Learfield subsidiary.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 image: https://avatars.githubusercontent.com/u/api-evangelist
 url: https://github.com/api-evangelist/spectra
 modified: '2026-05-23'
