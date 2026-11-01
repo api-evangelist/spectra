@@ -1,4 +1,4 @@
-# Spectra (Defunct / Merged into OVG360)
+# Spectra
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,85 +64,56 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Historical API Evangelist record for **Spectra** (also marketed as *Spectra
-Experiences*) — a North American venue management, food services & hospitality,
-and partnerships company headquartered in Philadelphia, PA. Spectra is no
-longer an operating brand. Its businesses now trade as **OVG360**, a division
-of **Oak View Group**.
+> **No longer operating.** This company or product has shut down, been discontinued, or been deprecated. This profile is kept as a historical record and is not maintained or rated.
 
-## Status
+Spectra (formerly Spectra Experiences, originally Comcast-Spectacor Ventures / Global Spectrum + Ovations Food Services + Paciolan + Front Row Marketing) was a North American venue management, food services & hospitality, and partnership-sales company headquartered in Philadelphia, PA. Owned jointly by Comcast Spectacor and Atairos, Spectra was acquired by Oak View Group (OVG) in a deal announced August 31, 2021 and closed on November 15, 2021 after receiving U.S. Department of Justice approval. On February 25, 2022, OVG formally consolidated Spectra and OVG Facilities into a single, rebranded division called OVG360. The Spectra and Spectra Experiences brands were retired as a result, and the spectraexperiences.com domain is no longer resolvable. This apis.yml is preserved as an historical record only — Spectra never published a public developer API, OpenAPI specification, SDK, or developer portal. Operational successor: OVG360 (https://www.oakviewgroup.com/ovg360-2/). Ticketing platform Paciolan, which had been part of the Spectra portfolio, was divested before the OVG deal and is now an independent Learfield subsidiary.
 
-- **Operating status**: Defunct as a trading brand.
-- **Domain status**: `spectraexperiences.com` is dead — DNS / TLS no longer
-  resolves to a live site (verified 2026-05-23).
-- **Successor**: [OVG360](https://www.oakviewgroup.com/ovg360-2/), an Oak View
-  Group division.
-- **Public developer API**: None. Spectra never published an OpenAPI spec,
-  SDK, CLI, developer portal, or sandbox during its operating life. Ticketing
-  was delivered through Paciolan (since divested to Learfield); all other
-  integrations were private enterprise contracts.
+**Areas:** Venue Management · Food Service · Hospitality · Live Events · Sports And Entertainment · Defunct · Merged · Historical Record
 
-## Corporate history (verified)
+## Spectra on APIs.io (historical record)
 
-| Date | Event | Source |
-|---|---|---|
-| 2015 | Comcast Spectacor consolidates Global Spectrum, Ovations Food Services, Paciolan, and Front Row Marketing into a single **Spectra** brand. | [Wikipedia — Comcast Spectacor](https://en.wikipedia.org/wiki/Comcast_Spectacor) |
-| 2021-08-31 | Oak View Group announces planned acquisition of Spectra from co-owners Comcast Spectacor and Atairos. | [Philadelphia Inquirer](https://www.inquirer.com/business/oak-view-group-spectra-comcast-spectacor-merger-20210831.html) |
-| 2021-11-15 | DOJ approves the deal; OVG closes the Spectra acquisition. Spectra at acquisition served ~330 top-tier client venues across North America and globally. | [PR Newswire](https://www.prnewswire.com/news-releases/oak-view-group-completes-major-acquisition-of-spectra-301429247.html) |
-| 2022-02-25 | OVG formally consolidates Spectra and OVG Facilities into a single rebranded division: **OVG360**. The Spectra brand is retired. | [The Stadium Business](https://www.thestadiumbusiness.com/2022/02/25/oak-view-group-unites-ovg-facilities-spectra-under-ovg360-brand/) |
+Everything profiled for Spectra is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/spectra/](https://apis.io/providers/spectra/)** — or go straight to one of the APIs or properties below.
 
-> *"Now that OVG's acquisition of Spectra is complete, we can get down to the
-> business of delivering an expanded highly competitive set of services..."*
-> — Tim Leiweke, CEO of Oak View Group (2021-11-15)
+### Published properties
 
-## Prior business lines (now part of OVG360)
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-Spectra operated three lines of business at the time of acquisition:
+#### JSON-LD (1)
 
-1. **Venue Management** — pre-construction consulting, event booking, day-of
-   operations, ticketing, and staffing. Heir to the legacy *Global Spectrum*
-   brand.
-2. **Food Services & Hospitality** — concessions, premium catering, suite
-   service, and culinary operations. Heir to the legacy *Ovations Food
-   Services* brand.
-3. **Partnerships** — property sales, naming rights, sponsorship, hospitality,
-   and strategic consulting. Heir to the legacy *Front Row Marketing* brand.
+Linked-data contexts for the provider's vocabulary.
 
-All three are now delivered under the OVG360 umbrella, alongside OVG
-Hospitality, Rhubarb, and Spectrum Catering brands within Oak View Group.
+- [Spectra Context](https://apis.io/jsonld/spectra/spectra-context/)
 
-## Repository contents
+#### Vocabulary (1)
 
-| Path | Purpose |
-|---|---|
-| [`apis.yml`](apis.yml) | Historical apis.yml entry. `apis` array is intentionally empty — no public developer API ever existed. |
-| [`vocabulary/spectra-vocabulary.yml`](vocabulary/spectra-vocabulary.yml) | Domain vocabulary for Spectra's venue management, food service, and partnerships concepts. |
-| [`json-ld/spectra-context.jsonld`](json-ld/spectra-context.jsonld) | JSON-LD context mapping Spectra's organizational entities and services to schema.org, including successor / predecessor links. |
+The provider's domain terms, defined.
 
-## What is intentionally absent
+- [Spectra Vocabulary](https://apis.io/vocabularies/spectra/spectra-vocabulary/)
 
-- **No `openapi/` folder** — Spectra never published an OpenAPI specification.
-- **No `asyncapi/`, `json-schema/`, `json-structure/`, `examples/` folders**
-  — there is no public API surface to derive these from.
-- **No `rules/` (Spectral) folder** — no spec to lint.
-- **No `capabilities/` folder** — Naftiko capabilities require a real API surface.
-- **No `plans/`, `rate-limits/`, `finops/` folders** — Spectra had no
-  developer-facing commercial offering; its services were sold via enterprise
-  management agreements only.
-- **No SDKs, CLIs, sample repos, or GitHub organization** under the Spectra
-  brand.
+#### Security (1)
 
-For the live successor brand, profile [Oak View Group](https://www.oakviewgroup.com)
-or its [OVG360 division](https://www.oakviewgroup.com/ovg360-2/) separately.
+Authentication, trust centre, and vulnerability disclosure.
 
-## Related API Evangelist records
+- [Spectra Domain Security](https://apis.io/security/spectra/spectra-domain-security/)
 
-- `comcast-spectacor` — Spectra's prior co-owner.
-- `oak-view-group` — current parent company (covers OVG360 and related brands).
-- `paciolan` — ticketing platform formerly bundled in Spectra; now a Learfield
-  subsidiary.
+## Where to find this API
 
----
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-*This repository documents a defunct entity. No further pipeline runs are
-expected unless Spectra is revived as a trading brand.*
+- [Website](https://spectraexperiences.com)
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as no longer operating, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Spectra: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/spectra/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
